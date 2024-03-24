@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-I'm devparada (Raul) and I'm a future web developer 💻
+I'm devparada (Raúl) and I'm a future web developer 💻
 
 Here you can see my most used languages and my public repositories:
 
