@@ -17,4 +17,5 @@ public class Profile {
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ## GitHub Stats
-![devparada's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=devparada&layout=compact&theme=radical)
+![devparada's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=devparada&layout=compact&theme=radical&langs_count=8&hide_border=true)
+![devparada's GitHub stats](https://github-readme-stats.vercel.app/api?username=devparada&show_icons=true&theme=radical&hide_border=true)
