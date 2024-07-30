@@ -2,14 +2,16 @@
 
 ```java
 public class Profile {
-  public static void main(String[] args) {
-    Profile profile = new Profile();
-    System.out.println(profile.showPresentation());
-  }
+    private final String presentation = "I'm devparada (Raúl) and I'm a future web developer 💻";
 
-  public String showPresentation() {
-    return "I'm devparada (Raúl) and I'm a future web developer 💻";
-  }
+    public static void main(String[] args) {
+        Profile profile = new Profile();
+        System.out.println(profile.getPresentation());
+    }
+
+    public String getPresentation() {
+        return presentation;
+    }
 }
 ```
 
