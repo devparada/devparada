@@ -18,5 +18,5 @@
 ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
 
 ## 📊 GitHub Stats
-![devparada's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=devparada&layout=compact&theme=radical&langs_count=8&hide_border=true)
-![devparada's GitHub stats](https://github-readme-stats.vercel.app/api?username=devparada&show_icons=true&theme=radical&hide_border=true&rank_icon=github)
+![devparada's Top Langs](https://star.devparada.dev/api/top-langs/?username=devparada&layout=compact&theme=radical&langs_count=8&hide_border=true)
+![devparada's GitHub stats](https://star.devparada.dev/api?username=devparada&show_icons=true&theme=radical&hide_border=true&rank_icon=github)
