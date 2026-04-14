@@ -13,13 +13,15 @@ jobs:
       
     steps:
       - name: Descarga el repositorio
-        uses: actions/checkout@v4
+        # @v6.0.2
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
 
       - name: Crea el directorio de perfil
         run: mkdir -p profile
 
       - name: Generar tarjeta de estadísticas (Stats)
-        uses: readme-tools/github-readme-stats-action@v1
+        # @v1.1.0
+        uses: readme-tools/github-readme-stats-action@b4d2ef3b8051484b318d455163153b23a2b35fa2
         with:
           card: stats
           # Opciones: iconos activados, tema radical, sin borde y con icono de github en el rango
@@ -28,7 +30,8 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generar tarjeta de lenguajes (Top Langs)
-        uses: readme-tools/github-readme-stats-action@v1
+        # @v1.1.0
+        uses: readme-tools/github-readme-stats-action@b4d2ef3b8051484b318d455163153b23a2b35fa2
         with:
           card: top-langs
           # Opciones: diseño compacto, tema radical, 8 lenguajes y sin borde
@@ -45,6 +48,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No hay cambios en las tarjetas."
           else
-            git commit -m "chore: actualizar estadísticas [skip ci]"
+            git commit -m "chore: actualizar estadísticas"
             git push
           fi
