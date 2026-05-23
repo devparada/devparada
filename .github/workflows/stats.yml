@@ -20,8 +20,8 @@ jobs:
         run: mkdir -p profile
 
       - name: Generar tarjeta de estadísticas (Stats)
-        # @v1.1.0
-        uses: readme-tools/github-readme-stats-action@b4d2ef3b8051484b318d455163153b23a2b35fa2
+        # @v2.0.0
+        uses: readme-tools/github-readme-stats-action@8614f3a61601854731381d853f8566867754a5ca
         with:
           card: stats
           # Opciones: iconos activados, tema radical, sin borde y con icono de github en el rango
@@ -30,8 +30,8 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generar tarjeta de lenguajes (Top Langs)
-        # @v1.1.0
-        uses: readme-tools/github-readme-stats-action@b4d2ef3b8051484b318d455163153b23a2b35fa2
+        # @v2.0.0
+        uses: readme-tools/github-readme-stats-action@8614f3a61601854731381d853f8566867754a5ca
         with:
           card: top-langs
           # Opciones: diseño compacto, tema radical, 8 lenguajes y sin borde
