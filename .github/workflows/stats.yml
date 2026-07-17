@@ -13,15 +13,15 @@ jobs:
       
     steps:
       - name: Descarga el repositorio
-        # @v6.0.2
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+        # @v7.0.0
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0
 
       - name: Crea el directorio de perfil
         run: mkdir -p profile
 
       - name: Generar tarjeta de estadísticas (Stats)
-        # @v2.0.0
-        uses: readme-tools/github-readme-stats-action@8614f3a61601854731381d853f8566867754a5ca
+        # @v2.0.1
+        uses: readme-tools/github-readme-stats-action@f9d8133845f40d659a754f78b8484983ba766448
         with:
           card: stats
           # Opciones: iconos activados, tema radical, sin borde y con icono de github en el rango
@@ -30,8 +30,8 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generar tarjeta de lenguajes (Top Langs)
-        # @v2.0.0
-        uses: readme-tools/github-readme-stats-action@8614f3a61601854731381d853f8566867754a5ca
+        # @v2.0.1
+        uses: readme-tools/github-readme-stats-action@f9d8133845f40d659a754f78b8484983ba766448
         with:
           card: top-langs
           # Opciones: diseño compacto, tema radical, 8 lenguajes y sin borde
