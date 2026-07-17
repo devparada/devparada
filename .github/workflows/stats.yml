@@ -27,7 +27,7 @@ jobs:
           # Opciones: iconos activados, tema radical, sin borde y con icono de github en el rango
           options: username=${{ github.repository_owner }}&show_icons=true&theme=radical&hide_border=true&rank_icon=github
           path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN }}
 
       - name: Generar tarjeta de lenguajes (Top Langs)
         # @v2.0.1
@@ -37,7 +37,7 @@ jobs:
           # Opciones: diseño compacto, tema radical, 8 lenguajes y sin borde
           options: username=${{ github.repository_owner }}&layout=compact&theme=radical&langs_count=8&hide_border=true
           path: profile/langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN }}
 
       - name: Confirma y sube los cambios
         run: |
