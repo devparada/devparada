@@ -4,7 +4,7 @@
 
   <br/>
 
-  ![Animación de código: Hello! Soy Full Stack Developer](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&duration=3200&pause=1000&color=1D85F7&center=true&vCenter=true&width=580&lines=System.out.println(%22Hello+World%21+Soy+Full+Stack+Developer%22)%3B;echo+%22Resolviendo+retos+t%C3%A9cnicos+con+c%C3%B3digo+limpio%22%3B;git+commit+-m+%22feat%3A+creando+software+de+calidad%22;docker+run+-d+--name+devparada+innovation%3Alatest)
+  ![Animación de código: Hello! Soy Full Stack Developer](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&duration=3200&pause=1000&color=1D85F7&center=true&vCenter=true&width=580&lines=System.out.println(%22Hello%21+Soy+Full+Stack+Developer%22)%3B;echo+%22Resolviendo+retos+t%C3%A9cnicos+con+c%C3%B3digo+limpio%22%3B;git+commit+-m+%22feat%3A+creando+software+de+calidad%22;docker+run+-d+--name+devparada+innovation%3Alatest)
 
 </div>
 
