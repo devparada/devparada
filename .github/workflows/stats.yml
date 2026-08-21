@@ -13,14 +13,14 @@ jobs:
       
     steps:
       - name: Descarga el repositorio
-        # @v7.0.0
+        # @v7.0.1
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
 
       - name: Crea el directorio de perfil
         run: mkdir -p profile
 
       - name: Generar tarjeta de estadísticas (Stats)
-        # @v2.0.1
+        # @v2.0.2
         uses: readme-tools/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e
         with:
           card: stats
@@ -30,7 +30,7 @@ jobs:
           token: ${{ secrets.STATS_TOKEN }}
 
       - name: Generar tarjeta de lenguajes (Top Langs)
-        # @v2.0.1
+        # @v2.0.2
         uses: readme-tools/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e
         with:
           card: top-langs
